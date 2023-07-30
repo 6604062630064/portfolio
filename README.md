@@ -1,3 +1,1 @@
 # Portfolio
-
-Built using Webpack.
