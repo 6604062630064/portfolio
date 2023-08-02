@@ -5,27 +5,31 @@
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale = 1.0, 
-maximum-scale=1.0, user-scalable=no"
+			maximum-scale=1.0, user-scalable=no"
 		/>
-		<title>Document</title>
+		<title>I hate CSS</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="white-background">
 			<div class="intro">
-				<img src="./images/intro.jpg" alt="" />
-				<h1>Kittipong</h1>
-				<h2>About me</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
-					est id nunc aliquet rutrum in nec est. Curabitur hendrerit nunc eu
-					elementum venenatis. Quisque vel quam libero. Orci varius natoque
-					penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-					Pellentesque habitant morbi tristique senectus et netus et malesuada
-					fames ac turpis egestas. Pellentesque at interdum neque.
-				</p>
-				<div class="intro-contact">
-					<img src="./images/github-mark.svg" alt="" />
+				<div class="text-over-image">
+					<img src="./images/intro.jpg" alt="" /></a>
+					<h1>Kittipong</h1>
+				</div>
+				<div class="about-me">
+					<h2>About me</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet
+						est id nunc aliquet rutrum in nec est. Curabitur hendrerit nunc eu
+						elementum venenatis. Quisque vel quam libero. Orci varius natoque
+						penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+						Pellentesque habitant morbi tristique senectus et netus et malesuada
+						fames ac turpis egestas. Pellentesque at interdum neque.
+					</p>
+					<div class="intro-contact">
+						<a href="https://github.com/Kittipong2001"><img src="./images/github-mark.svg" alt="" /></a>
+					</div>
 				</div>
 			</div>
 			<!-- Project list -->
@@ -34,7 +38,9 @@ maximum-scale=1.0, user-scalable=no"
 				<div class="project">
 					<!-- project #1 -->
 					<div class="work">
-						<img src="./images/calculator.png" alt="" />
+						<div class="wrapper">
+							<a href="https://kittipong2001.github.io/Calculator/"><img src="./images/calculator.png" alt="" /></a>
+						</div>
 						<div class="inner-text">
 							<h3>Calculator</h3>
 							<p class="desc">Pure HTML, Javascript, and CSS</p>
@@ -42,7 +48,9 @@ maximum-scale=1.0, user-scalable=no"
 					</div>
 					<!-- project #2 -->
 					<div class="work">
-						<img src="./images/battleship.png" alt="" />
+						<div class="wrapper">
+							<a href="https://kittipong2001.github.io/battleship/"><img src="./images/battleship.png" alt="" /></a>
+						</div>
 						<div class="inner-text">
 							<h3>Battleship</h3>
 							<p class="desc">Javascrip Testing</p>
@@ -50,7 +58,8 @@ maximum-scale=1.0, user-scalable=no"
 					</div>
 					<!-- project #3 -->
 					<div class="work">
-						<img src="./images/memory.png" alt="" />
+						<div class="wrapper">
+							<a href="https://kittipong2001.github.io/memory-card/"><img src="./images/memory.png" alt="" /></div></a>
 						<div class="inner-text">
 							<h3>Memory Game</h3>
 							<p class="desc">Created with React</p>

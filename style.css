@@ -68,14 +68,14 @@ table {
 		padding: 5vh 7vw;
 		display: block;
 	}
-	.intro > img {
+	.text-over-image > img {
 		margin: auto;
   		display: block;
 		max-height: 100%;
 		width: 72vw;
 	}
 
-	.intro > h1 {
+	.text-over-image > h1 {
 		position: relative;
 		font-family: 'Playfair Display', serif;
 		color: white;
@@ -92,7 +92,7 @@ table {
 		margin-bottom: 3vh;
 	}
 
-	.intro > p {
+	.about-me > p {
 		line-height: 3rem;
 	}
 	.intro-contact {
@@ -161,4 +161,128 @@ table {
 		margin-bottom: 4vh;
 	}
 
+}
+
+@media (min-width: 601px) {
+	
+	body {
+		
+		box-sizing: border-box;
+		font-family: 'Roboto', sans-serif;
+		
+		font-size: 1.7rem;
+		display: flex;
+		flex-direction: column;
+		gap: 16vh;
+		overflow-x: hidden;
+	}
+
+	.white-background {
+		padding: 5vh 7vw;
+	}
+	.intro {
+		
+		display: flex;
+		align-items: center;
+		
+	}
+
+	.text-over-image {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.text-over-image > img {
+		margin: auto;
+		max-height: 100%;
+		width: 25vw;
+		
+	}
+
+	.text-over-image > h1 {
+		flex: 0;
+		position: relative;
+		font-family: 'Playfair Display', serif;
+		color: white;
+		top: -13vh;
+		left: 1vw;
+		font-size: 7rem;
+	}
+
+	.about-me {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		padding: 3vh 3vw;
+		gap: 3vh;
+		box-shadow: 2px 5px 5px rgb(107, 107, 107);
+	}
+
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-size: 3rem;
+		color: rgb(43, 43, 43);
+		margin-bottom: 3vh;
+		
+	}
+
+	.project {
+		display: grid;
+		gap: 9vw;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.wrapper img {
+		max-width: 100%;
+
+	}
+
+	.work {
+		display: block;
+		border: 2px solid black;
+		height: 60vh;
+		box-shadow: 2px 5px 5px rgb(107, 107, 107);
+	}
+
+	.inner-text {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 3vh 2vw;
+		
+	}
+
+	h3 {
+		font-family: 'Playfair Display', serif;
+		font-size: 2.5rem;
+	}
+
+	.wrapper {
+		max-width: 100%;
+		height: 23vh;
+		overflow-x:hidden;
+		overflow-y: hidden;
+	}
+
+	.contacts {
+		color: white;
+		padding: 5vh 7vw;
+		background-color: rgb(0, 153, 255);
+	}
+
+	.contacts h1 {
+		margin-bottom: 3vh;
+		font-size: 4rem;
+		font-family: 'Playfair Display', serif;
+	}
+
+	.long-text {
+		font-size: 2rem;
+		margin-bottom: 4vh;
+	}
+
+	.address {
+		font-size: 1.3rem;
+		margin-bottom: 4vh;
+	}
 }
